@@ -1,0 +1,20 @@
+{
+  "name": "molecule",
+  "version": "1.0.0",
+  "author": "risuney",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build-css && npm run build-prefix && npm run clean-css",
+    "build-prefix": "postcss --use autoprefixer --map false --output css/molecule.css css/molecule.css",
+    "build-css": "node-sass --output-style expanded --source-map true scss/molecule.scss css/molecule.css",
+    "build-css-w": "node-sass --output-style expanded --source-map true scss/molecule.scss css/molecule.css -w",
+    "clean-css": "cleancss -o css/molecule.min.css css/molecule.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "clean-css-cli": "^5.3.0",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1"
+  }
+}
