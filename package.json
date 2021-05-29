@@ -1,7 +1,7 @@
 {
-  "name": "molecule",
+  "name": "molecule-css",
   "version": "1.0.0",
-  "author": "risuney",
+  "author": "risuney <honey197692@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "npm run build-css && npm run build-prefix && npm run clean-css",
@@ -16,5 +16,12 @@
     "node-sass": "^5.0.0",
     "postcss": "^8.3.0",
     "postcss-cli": "^8.3.1"
-  }
+  },
+  "repository": "https://github.com/risuney/molecule-css.git",
+  "files": [
+    "css",
+    "scss",
+    "LICENSE",
+    "package.json"
+  ]
 }
