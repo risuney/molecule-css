@@ -1,0 +1,31 @@
+@import "../mixin/all";
+
+.btn {
+  @include btn-inp;
+  padding: 10px 16px;
+  cursor: pointer;
+  &:hover {
+    background-color: $light
+  }
+  &:focus {
+    box-shadow: $btn-focus
+  }
+  &[class*="bg"] {
+    // box-shadow: none;
+    border-color: transparent;
+  }
+  &.round {
+    border-radius: 100vh;
+    padding: 10px 20px
+  }
+  &.small {
+    @include small;
+  }
+  &.large {
+    @include large;
+  }
+  &.big-big {
+    @include big-big;
+  }
+  @include btn-fab;
+}

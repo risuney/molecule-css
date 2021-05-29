@@ -1,0 +1,38 @@
+@import "../mixin/all";
+
+
+@each $c-name, $color in $color {
+  .bg-#{$c-name} {
+    background-color: $color
+  }
+  .text-#{$c-name} {
+    color: $color
+  }
+}
+
+.bg-beni, .bg-orange, .bg-cobalt, .bg-danger, .bg-purple, .bg-info, .bg-black, .bg-dark, .bg-text {
+  > * {
+    color: $white;
+  }
+  color: $white;
+}
+
+.btn, .fab {
+  @each $c-name, $color in $hover {
+    &.bg-#{$c-name}:hover {
+      background-color: $color;
+    }
+  }
+  @each $c-name, $color in $active {
+    &.bg-#{$c-name}:active {
+      background-color: $color;
+    }
+  }
+  &.light:hover {
+    @each $c-name, $color in $light-col {
+      &.bg-#{$c-name} {
+        background-color: darken($color, 2.5%);
+      }
+    }
+  }
+}

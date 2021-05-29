@@ -1,0 +1,28 @@
+@import "../mixin/all";
+
+.file {
+  background-color: $light;
+  border: 1px solid $border;
+  padding: 8px 18px;
+  border-radius: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  &[class*="bg"] {
+    border: none;
+  }
+  &:hover {
+    background-color: darken($light, 5%)
+  }
+  &:active {
+    background-color: darken($light, 7%)
+  }
+  .file-input {
+    display: none
+  }
+  &.size-small {
+    padding: 4px 16px;
+  }
+  &.size-large {
+    padding: 12px 28px
+  }
+}

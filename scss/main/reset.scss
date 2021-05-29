@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,input,textarea,select {
+  -webkit-appearance: none;
+  border-radius: 0;
+  margin: 0;
+}
+
+input[type="submit"],
+input[type="button"] {
+  border-radius: 0;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  appearance: button;
+  border: none;
+  box-sizing: border-box;
+    &::-webkit-search-decoration {
+      display: none;
+    }
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,th {
+  padding: 0;
+}

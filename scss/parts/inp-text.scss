@@ -1,0 +1,37 @@
+@import "../mixin/all";
+
+input,textarea {
+  @include btn-inp;
+  padding: 8px 16px;
+  cursor: text;
+  @each $c-name, $color in $color {
+    &.bor-#{$c-name} {
+      border-color: $color;
+    }
+  }
+  &:focus {
+    box-shadow: $inp-focus
+  }
+  &.round {
+    border-radius: 100vh;
+    padding: 8px 20px
+  }
+  &.small {
+    @include small;
+  }
+  &.large {
+    @include large;
+  }
+  &.big-big {
+    @include big-big;
+  }
+  &::placeholder {
+    color: $text-light
+  }
+}
+
+textarea {
+  &.no-resize {
+    resize: none;
+  }
+}

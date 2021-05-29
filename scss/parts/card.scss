@@ -1,0 +1,44 @@
+@import "../mixin/all";
+
+.card {
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: $card-padding;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  &[class*="bg"] {
+    border: none;
+  }
+  &.size-small {
+    width: 200px
+  }
+  &.size-medium {
+    width: 280px;
+  }
+  &.size-large {
+    width: 360px
+  }
+  &.shadow {
+    border: none;
+    box-shadow: $card-shadow;
+  }
+  &.has-visual {
+    padding: 0;
+    overflow: hidden;
+  }
+  .card-visual {
+    display: flex;
+    width: 100%;
+  }
+  .card-body {
+    padding: $card-padding
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}

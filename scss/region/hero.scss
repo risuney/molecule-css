@@ -1,0 +1,73 @@
+@import "../mixin/all";
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .hero-body {
+    padding: $hero-padding;
+  }
+  &.center{
+    align-items: center;
+    .hero-body {
+      text-align: center;
+    }
+  }
+  &.size-height-full {
+    height: 100vh;
+    .hero-header {
+      position: absolute;
+      top: 0;
+    }
+  }
+  &.has-header {
+    .hero-body {
+      margin-top: -79px;
+    }
+  }
+  .hero-visual {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -2;
+  }
+  .hero-visual-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #00000030;
+    z-index: -1;
+    position: absolute;
+  }
+  &.bg-visual {
+    position: relative;
+    overflow: hidden;
+  }
+  @media screen and (max-width: $mobile) {
+    .hero-body {
+      padding: $hero-padding-mobile;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    .hero-body {
+      padding: $hero-padding-tablet;
+    }
+  }
+  &.size-large {
+    .hero-body {
+      padding: $hero-padding-large;
+    }
+    @media screen and (max-width: $mobile) {
+      .hero-body {
+        padding: $hero-padding-mobile-large;
+      }
+    }
+
+    @media screen and (min-width: $tablet) {
+      .hero-body {
+        padding: $hero-padding-tablet-large;
+      }
+    }
+  }
+}

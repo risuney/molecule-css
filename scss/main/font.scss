@@ -1,0 +1,56 @@
+@import "../mixin/all";
+
+body,h1,h2,h3,h4,h5,h6,span,p,input,textarea {
+  color: $text;
+  font-family: $sans-serif;
+  line-height: 1.5;
+}
+
+.size-1 {
+  font-size: 2.5rem;
+}
+
+.size-2 {
+  font-size: 2rem;
+}
+
+.size-3 {
+  font-size: 1.5rem;
+}
+
+.size-4 {
+  font-size: 1.25rem;
+}
+
+.size-5 {
+  font-size: 1rem;
+}
+
+.size-6 {
+  font-size: 0.85rem;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.text-right {
+  text-align: right!important;
+}
+
+.text-bold {
+  font-weight: $bold!important;
+}
+
+.text-italic {
+  font-style: italic!important;
+}
+
+.text-serif {
+  font-family: $serif!important;
+}
+
+.text-marker {
+  background: linear-gradient(transparent 60%, $warning 60%);
+  font-weight: $bold;
+}

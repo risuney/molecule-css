@@ -1,0 +1,66 @@
+@import "../mixin/all";
+
+.modal {
+  @include posi0;
+  @include over-a;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  &.active {
+    display: flex!important;
+  }
+  &.small {
+    >.modal-content, >.modal-card, >.modal-img-card {
+      width: $small;
+    }
+  }
+  &.large {
+    >.modal-content, >.modal-card, >.modal-img-card {
+      width: $large;
+    }
+  }
+}
+
+.modal-back {
+  display: flex;
+  background-color: rgba(10,10,10,0.65);
+  position: absolute;
+  @include posi0;
+}
+
+.modal-content {
+  width: $medium;
+  @include modal-c-b;
+  padding: 20px 30px;
+}
+
+.modal-card {
+  width: $medium;
+  @include modal-c-b;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0;
+  header {
+    padding: 15px 30px;
+    background-color: $light;
+    border-bottom: solid 1px $border;
+    .modal-title {
+      font-size: 1.5rem;
+    }
+  }
+  .modal-body {
+    @include over-a;
+    padding: 20px 30px;
+  }
+  footer {
+    padding: 15px 30px;
+    background-color: $light;
+    border-top: solid 1px $border;
+  }
+}
+
+.modal-content, .modal-card {
+  display: flex;
+}

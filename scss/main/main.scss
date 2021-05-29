@@ -1,0 +1,44 @@
+@import "../mixin/all";
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  line-height: normal;
+}
+
+input,button {
+  color: $text;
+  background-color: #ffffff;
+}
+
+hr{
+  background-color: $hr-border;
+  border: none;
+  display: block;
+  height: 1.7px;
+  margin: 14px 0
+}
+
+a {
+  color: $info;
+  text-decoration: none;
+}
+
+.size-width-full {
+  width: 100%;
+}
+
+.only-mobile {
+  @media screen and (min-width: $tablet) {
+    display: none
+  }
+}
+
+.not-mobile {
+  @media screen and (max-width: $mobile) {
+    display: none
+  }
+}

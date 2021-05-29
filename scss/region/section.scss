@@ -1,0 +1,43 @@
+@import "../mixin/all";
+
+.section {
+  padding: $section-padding;
+  &.size-large {
+    padding: $section-padding-large;
+    @media screen and (max-width: $mobile) {
+      & {
+        padding: $section-padding-mobile-large!important;
+      }
+    }
+
+    @media screen and (min-width: $tablet) {
+      & {
+        padding: $section-padding-tablet-large!important;
+      }
+    }
+
+    @media screen and (min-width: $desktop) {
+      & {
+        padding: $section-padding-desktop-large!important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .section {
+    padding: $section-padding-mobile!important;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .section {
+    padding: $section-padding-tablet!important;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .section {
+    padding: $section-padding-desktop!important;
+  }
+}

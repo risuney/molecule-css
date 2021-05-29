@@ -1,0 +1,42 @@
+@import "../mixin/all";
+
+.table {
+  th, td {
+    padding: 4px 24px;
+    font-size: 1.15rem;
+    border-bottom: 1px solid $hr-border;
+    vertical-align: middle
+  }
+  th {
+    border-width: 1.6px;
+    text-align: left;
+  }
+  tbody {
+    tr:last-child {
+      td, th {
+        border-bottom: none;
+      }
+    }
+  }
+  &.stripe {
+    tbody tr:nth-child(odd) {
+      background-color: $table-bg
+    }
+  }
+  &.text-center {
+    th, td {
+      text-align: center;
+    }
+  }
+  &.text-right {
+    th, tr {
+      text-align: right;
+    }
+  }
+  &.size-large {
+    td, th {
+      padding: 8px 32px;
+      font-size: 1.25rem;
+    }
+  }
+}

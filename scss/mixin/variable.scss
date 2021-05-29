@@ -1,0 +1,142 @@
+// color
+$primary: #0cf79d;
+$sakura: #feeeed;
+$beni: #c22047;
+$orange: #ff8000;
+$cobalt: #1b5dc7;
+$danger: #ff1717;
+$warning: #ffde7a;
+$purple: #c651e5;
+$info: #2496f6;
+$white: #ffffff;
+$light: #f2f2f2;
+$black: #000000;
+$dark: #1e1e1e;
+$text: #5e5e5e;
+
+$color: (
+  "primary": $primary,
+  "sakura": $sakura,
+  "beni": $beni,
+  "orange": $orange,
+  "cobalt": $cobalt,
+  "danger": $danger,
+  "warning": $warning,
+  "purple": $purple,
+  "info": $info,
+  "light": $light,
+  "black": $black,
+  "dark": $dark,
+  "text": $text
+);
+
+$hover: (
+  "primary": darken($primary, 5%),
+  "sakura": darken($sakura, 5%),
+  "beni": lighten($beni, 5%),
+  "orange": darken($orange, 4%),
+  "cobalt": lighten($cobalt, 5%),
+  "danger": darken($danger, 7%),
+  "warning": darken($warning, 5%),
+  "purple": darken($purple, 5%),
+  "info": darken($info, 5%),
+  "light": darken($light, 5%),
+  "black": lighten($black, 7%),
+  "dark": lighten($dark, 5%),
+  "text": lighten($text, 5%)
+);
+
+$active: (
+  "primary": darken($primary, 7%),
+  "sakura": darken($sakura, 7%),
+  "beni": lighten($beni, 8%),
+  "orange": darken($orange, 6%),
+  "cobalt": lighten($cobalt, 8%),
+  "danger": darken($danger, 9%),
+  "warning": darken($warning, 9%),
+  "purple": darken($purple, 9%),
+  "info": darken($info, 7%),
+  "light": darken($light, 7%),
+  "black": lighten($black, 11%),
+  "dark": lighten($dark, 9%),
+  "text": lighten($text, 9%)
+);
+
+$light-col: (
+  "primary": lighten($primary, 41%),
+  "sakura": $sakura,
+  "beni": lighten($beni, 47%),
+  "orange": lighten($orange, 41%),
+  "cobalt": lighten($cobalt, 44%),
+  "danger": lighten($danger, 41%),
+  "warning": lighten($warning, 15%),
+  "purple": lighten($purple, 30%),
+  "info": lighten($info, 41%),
+  "light": $light,
+  "black": lighten($black, 47%),
+  "dark": lighten($dark, 47%),
+  "text": lighten($text, 47%)
+);
+
+$hr-border: #e5e5e5;
+$border: #d0d0d0;
+$dark-border: #bdbdbd;
+$btn-focus: 0 0 3px 0 rgba(0, 71, 171, 0.35);
+$inp-focus: 0 0 3px 0 rgba(0, 71, 171, 0.5);
+$fab-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+$card-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.14);
+$text-light: #d9d9d9;
+$table-bg: #f7f8f9;
+
+$hero-header-item: #f2f3f430;
+
+// footer-color
+$footer-bg: #f4f5f6;
+$footer-text: #515253;
+
+// font
+$sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$serif: serif;
+
+// font-weight
+$bold: 600;
+
+// size
+$small: 400px; //width;
+$medium: 600px; //width;
+$large: 800px; //width;
+
+$fab-rl: 15px;
+$fab-tb: 20px;
+
+// region
+
+$section-padding: 32px 64px;
+$section-padding-mobile: 16px 24px;
+$section-padding-tablet: 24px 48px;
+$section-padding-desktop: 28px 56px;
+
+$section-padding-large: 52px 98px;
+$section-padding-mobile-large: 26px 38px;
+$section-padding-tablet-large: 32px 64px;
+$section-padding-desktop-large: 42px 82px;
+
+$hero-padding: 128px;
+$hero-padding-mobile: 78px 52px;
+$hero-padding-tablet: 96px;
+
+$hero-padding-large: 186px 128px;
+$hero-padding-mobile-large: 128px 64px;
+$hero-padding-tablet-large: 148px 128px;
+
+// margin-padding
+
+$card-padding: 12px 16px;
+
+//media-screen
+//max width
+$mobile: 767px;
+//min width
+$tablet: 768px;
+$desktop: 1024px;
+$widescreen: 1440px;

@@ -1,0 +1,66 @@
+@mixin posi0 {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+@mixin over-a {
+  overflow: auto;
+}
+
+@mixin modal-c-b {
+  background-color: $white;
+  border-radius: 16px;
+  z-index: 2000;
+  max-height: calc(100% - 60px);
+}
+
+@mixin small {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+@mixin large {
+  padding: 12px 20px;
+  font-size: 20px;
+}
+
+@mixin big-big {
+  padding: 14px 22px;
+  font-size: 22px;
+}
+
+@mixin btn-inp {
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  border: solid 1px $border;
+  outline: none;
+}
+
+@mixin btn-fab {
+  &.border {
+    @each $c-name, $color in $color {
+      &.bg-#{$c-name} {
+        border-color: $color;
+        background-color: $white;
+        color: $color;
+      }
+    }
+  }
+  &.light {
+    @each $c-name, $color in $light-col {
+      &.bg-#{$c-name} {
+        background-color: $color;
+      }
+    }
+    @each $c-name, $color in $color {
+      &.bg-#{$c-name} {
+        color: darken($color, 7%);
+      }
+    }
+  }
+}

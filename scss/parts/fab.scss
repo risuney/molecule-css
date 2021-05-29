@@ -1,0 +1,51 @@
+@import "../mixin/all";
+
+.fab {
+  font-size: 1rem;
+  display: flex;
+  position: absolute;
+  border: solid 1px $border;
+  border-radius: 50%;
+  padding: 18px;
+  outline: none;
+  box-shadow: $fab-shadow;
+  @include btn-fab;
+  &[class*="bg"] {
+    border: none;
+  }
+  &.bg-white {
+    background-color: $white
+  }
+  &.right {
+    right: $fab-rl
+  }
+  &.left {
+    left: $fab-rl
+  }
+  &.top {
+    top: $fab-tb
+  }
+  &.bottom {
+    bottom: $fab-tb
+  }
+  &.mobile {
+    @media screen and (max-width: $mobile) and (orientation: landscape) {
+      display: flex;
+    }
+    @media screen and(min-width: $tablet) {
+      display: none;
+    }
+  }
+  &.large {
+    padding: 20px;
+    > * {
+      font-size: 32px
+    }
+  }
+  &.small {
+    padding: 14px;
+    > * {
+      font-size: 18px
+    }
+  }
+}
