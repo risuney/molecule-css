@@ -10,14 +10,20 @@ CSS like a molecule.
 npm install molecule-css
 ```
 
-### yarn
+### Yarn
 
 ```sh
 yarn add molecule-css
 ```
 
-### cdn
+### CDN(From npm)
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/molecule-css/css/molecule.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/molecule-css@latest/css/molecule.min.css">
+```
+
+### CDN(From GitHub)
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/risuney/molecule-css@latest/css/molecule.min.css">
 ```

@@ -11,19 +11,19 @@
   &.active {
     display: flex!important;
   }
-  &.small {
+  &.size-small {
     >.modal-content, >.modal-card, >.modal-img-card {
       width: $small;
     }
   }
-  &.large {
+  &.size-large {
     >.modal-content, >.modal-card, >.modal-img-card {
       width: $large;
     }
   }
 }
 
-.modal-back {
+.modal-bg {
   display: flex;
   background-color: rgba(10,10,10,0.65);
   position: absolute;
@@ -63,4 +63,5 @@
 
 .modal-content, .modal-card {
   display: flex;
+  flex-direction: column;
 }

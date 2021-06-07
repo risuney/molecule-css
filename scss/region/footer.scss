@@ -1,7 +1,7 @@
 @import "../mixin/all";
 
 .footer {
-  background-color: $footer-bg;
+  background-color: $light;
   width: 100%;
   padding: 20px;
   .nav {
@@ -25,6 +25,7 @@
 .size-footer-text {
   font-size: 13.5px;
   color: $footer-text;
+  display: block;
 }
 
 .text-heading {

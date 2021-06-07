@@ -36,6 +36,11 @@
   .card-body {
     padding: $card-padding
   }
+  @media screen and (max-width: $mobile) {
+    & {
+      flex-direction: column;
+    }
+  }
 }
 
 .cards {

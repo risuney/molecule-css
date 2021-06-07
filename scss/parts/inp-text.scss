@@ -1,6 +1,6 @@
 @import "../mixin/all";
 
-input,textarea {
+.input, .textarea {
   @include btn-inp;
   padding: 8px 16px;
   cursor: text;
@@ -12,17 +12,13 @@ input,textarea {
   &:focus {
     box-shadow: $inp-focus
   }
-  &.round {
-    border-radius: 100vh;
-    padding: 8px 20px
-  }
-  &.small {
+  &.size-small {
     @include small;
   }
-  &.large {
+  &.size-large {
     @include large;
   }
-  &.big-big {
+  &.size-big-big {
     @include big-big;
   }
   &::placeholder {
@@ -30,7 +26,14 @@ input,textarea {
   }
 }
 
-textarea {
+.input {
+  &.round {
+    border-radius: 100vh;
+    padding: 8px 20px
+  }
+}
+
+.textarea {
   &.no-resize {
     resize: none;
   }

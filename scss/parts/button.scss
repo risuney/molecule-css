@@ -18,13 +18,13 @@
     border-radius: 100vh;
     padding: 10px 20px
   }
-  &.small {
+  &.size-small {
     @include small;
   }
-  &.large {
+  &.size-large {
     @include large;
   }
-  &.big-big {
+  &.size-big-big {
     @include big-big;
   }
   @include btn-fab;

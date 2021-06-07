@@ -1,6 +1,7 @@
 @import "../mixin/all";
 
 .file {
+  display: inline-flex;
   background-color: $light;
   border: 1px solid $border;
   padding: 8px 18px;

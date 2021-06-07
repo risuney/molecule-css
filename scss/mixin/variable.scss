@@ -9,9 +9,9 @@ $warning: #ffde7a;
 $purple: #c651e5;
 $info: #2496f6;
 $white: #ffffff;
-$light: #f2f2f2;
-$black: #000000;
+$light: #f4f5f6;
 $dark: #1e1e1e;
+$black: #000000;
 $text: #5e5e5e;
 
 $color: (
@@ -25,8 +25,8 @@ $color: (
   "purple": $purple,
   "info": $info,
   "light": $light,
-  "black": $black,
   "dark": $dark,
+  "black": $black,
   "text": $text
 );
 
@@ -41,8 +41,8 @@ $hover: (
   "purple": darken($purple, 5%),
   "info": darken($info, 5%),
   "light": darken($light, 5%),
-  "black": lighten($black, 7%),
   "dark": lighten($dark, 5%),
+  "black": lighten($black, 7%),
   "text": lighten($text, 5%)
 );
 
@@ -57,8 +57,8 @@ $active: (
   "purple": darken($purple, 9%),
   "info": darken($info, 7%),
   "light": darken($light, 7%),
-  "black": lighten($black, 11%),
   "dark": lighten($dark, 9%),
+  "black": lighten($black, 11%),
   "text": lighten($text, 9%)
 );
 
@@ -73,8 +73,8 @@ $light-col: (
   "purple": lighten($purple, 30%),
   "info": lighten($info, 41%),
   "light": $light,
-  "black": lighten($black, 47%),
   "dark": lighten($dark, 47%),
+  "black": lighten($black, 47%),
   "text": lighten($text, 47%)
 );
 
@@ -91,7 +91,6 @@ $table-bg: #f7f8f9;
 $hero-header-item: #f2f3f430;
 
 // footer-color
-$footer-bg: #f4f5f6;
 $footer-text: #515253;
 
 // font
