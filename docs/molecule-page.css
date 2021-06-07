@@ -1,0 +1,33 @@
+.header-logo {
+  height: 60px
+}
+
+.home-btns {
+  margin-top: 1rem
+}
+
+.btn {
+  display: inline-flex;
+}
+
+.card.page {
+  padding: 14px 32px;
+}
+
+.card.page:hover {
+  background-color: #edf6fe
+}
+
+.footer-top-text {
+  margin-bottom: 2rem;
+}
+
+.heading {
+  margin-top: 1.15rem;
+  margin-bottom: 1.15rem;
+  display: block;
+}
+
+[class*="hljs"] {
+  font-family: 'Source Code Pro', monospace;
+}

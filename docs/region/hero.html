@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Hero / Molecule</title>
+    <link rel="icon" href="../static/logo/logo-mark.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/risuney/molecule-css@latest/css/molecule.min.css">
+    <link rel="stylesheet" href="../molecule-page.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/atom-one-dark.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../include/include.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </head>
+  <body>
+    <script type="text/javascript">header('../')</script>
+    <div class="hero">
+      <div class="hero-body">
+        <p class="size-2">Hero</p>
+        <p class="size-4">The most prominent region on the page</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2 class="size-3 heading">Normal hero</h2>
+    </section>
+    <div class="hero">
+      <div class="hero-body">
+        <p class="size-3">Normal hero</p>
+      </div>
+    </div>
+    <section class="section">
+      <pre><code>
+&lt;div class="hero"&gt;
+  &lt;div class="hero-body"&gt;
+    &lt;p class="size-3"&gt;Normal hero&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      </code></pre>
+      <p class="size-3 heading">Colors</p>
+      <p>Can be set like any other color</p>
+      <p>Example</p>
+    </section>
+    <div class="hero bg-sakura">
+      <div class="hero-body">
+        <p class="size-3">Color: Sakura</p>
+      </div>
+    </div>
+    <section class="section">
+      <pre><code>
+&lt;div class="hero bg-sakura"&gt;
+  &lt;div class="hero-body"&gt;
+    &lt;p class="size-3"&gt;Color: Sakura&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      </code></pre>
+      <p class="size-3 heading">Visual</p>
+      <p>Images and videos can be the background</p>
+    </section>
+    <div class="hero bg-visual">
+      <div class="hero-body">
+        <h3 class="size-3">Visual</h3>
+        <p>It's so beautiful</p>
+      </div>
+      <div class="hero-visual-overlay"></div>
+      <img src="../static/image.png" class="hero-visual">
+    </div>
+    <section class="section">
+      <pre><code>
+&lt;div class="hero bg-visual"&gt;
+  &lt;div class="hero-body"&gt;
+    &lt;h3 class="size-3"&gt;Visual&lt;/h3&gt;
+    &lt;p&gt;It's so beautiful&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="hero-visual-overlay"&gt;&lt;/div&gt;
+  &lt;img src="../static/image.png" class="hero-visual"&gt;
+&lt;/div&gt;
+      </code></pre>
+      <p class="size-3 heading">Header</p>
+    </section>
+    <div class="hero bg-light has-header">
+      <header class="header hero-header">
+        <div class="header-contents">
+          <div class="header-title">
+            <h4 class="size-4 header-item">Molecule</h4>
+          </div>
+          <nav class="nav">
+            <a class="header-item bg-header-item text-text">Docs</a>
+            <a class="header-item bg-header-item text-text">About</a>
+          </nav>
+        </div>
+      </header>
+      <div class="hero-body">
+        <h3 class="size-3">Hero has header</h3>
+      </div>
+    </div>
+    <section class="section">
+      <pre><code>
+&lt;div class="hero bg-light has-header"&gt;
+  &lt;header class="header hero-header"&gt;
+    &lt;div class="header-contents"&gt;
+      &lt;div class="header-title"&gt;
+        &lt;h4 class="size-4 header-item"&gt;Molecule&lt;/h4&gt;
+      &lt;/div&gt;
+      &lt;nav class="nav"&gt;
+        &lt;a class="header-item bg-header-item"&gt;Docs&lt;/a&gt;
+        &lt;a class="header-item bg-header-item"&gt;About&lt;/a&gt;
+      &lt;/nav&gt;
+    &lt;/div&gt;
+  &lt;/header&gt;
+  &lt;div class="hero-body"&gt;
+    &lt;h3 class="size-3"&gt;Hero has header&lt;/h3&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      </code></pre>
+      <p class="size-3 heading">Sizes</p>
+    </section>
+    <div class="hero size-large bg-light">
+      <div class="hero-body">
+        <p class="size-3">Large</p>
+      </div>
+    </div>
+    <div class="hero size-height-full bg-warning">
+      <div class="hero-body">
+        <p class="size-3">Full height</p>
+      </div>
+    </div>
+    <section class="section">
+      <pre><code>
+&lt;div class="hero size-large bg-light"&gt;
+  &lt;div class="hero-body"&gt;
+    &lt;p class="size-3"&gt;Large&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hero size-height-full bg-warning"&gt;
+  &lt;div class="hero-body"&gt;
+    &lt;p class="size-3"&gt;Full height&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      </code></pre>
+      <p class="size-3 heading">Center</p>
+    </section>
+    <div class="hero bg-light center">
+      <div class="hero-body">
+        <p class="size-3">Center</p>
+      </div>
+    </div>
+    <section class="section">
+      <pre><code>
+&lt;div class="hero bg-light center"&gt;
+  &lt;div class="hero-body"&gt;
+    &lt;p class="size-3"&gt;Center&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      </code></pre>
+    </section>
+    <script type="text/javascript">footer('../')</script>
+  </body>
+</html>

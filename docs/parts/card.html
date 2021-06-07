@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Card / Molecule</title>
+    <link rel="icon" href="../static/logo/logo-mark.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/risuney/molecule-css@latest/css/molecule.min.css">
+    <link rel="stylesheet" href="../molecule-page.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/atom-one-dark.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../include/include.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </head>
+  <body>
+    <script type="text/javascript">header('../')</script>
+    <div class="hero">
+      <div class="hero-body">
+        <p class="size-2">Card</p>
+        <p class="size-4">Parts that flexibly deform</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2 class="size-3 heading">Side by side</h2>
+      <div class="cards">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+        <div class="card">Card 4</div>
+      </div>
+      <pre><code>
+&lt;div class="card"&gt;Card 1&lt;/div&gt;
+&lt;div class="card"&gt;Card 2&lt;/div&gt;
+&lt;div class="card"&gt;Card 3&lt;/div&gt;
+&lt;div class="card"&gt;Card 4&lt;/div&gt;
+      </code></pre>
+      <h2 class="size-3 heading">Sizes</h2>
+      <div class="card size-small">Small</div>
+      <div class="card size-medium">Medium</div>
+      <div class="card size-large">Large</div>
+      <pre><code>
+&lt;div class="card size-small"&gt;Small&lt;/div&gt;
+&lt;div class="card size-medium"&gt;Medium&lt;/div&gt;
+&lt;div class="card size-large"&gt;Large&lt;/div&gt;
+      </code></pre>
+      <h2 class="size-3 heading">Visual card</h2>
+      <div class="card size-medium has-visual">
+        <div class="card-visual">
+          <img src="../static/image.png" alt="">
+        </div>
+        <div class="card-body">
+          <p class="size-4">Visual card</p>
+          <p>This is visual card</p>
+        </div>
+      </div>
+      <pre><code class="language-xml">
+&lt;div class="card size-medium has-visual"&gt;
+  &lt;div class="card-visual"&gt;
+    &lt;img src="../static/image.png" alt=""&gt;
+  &lt;/div&gt;
+  &lt;div class="card-body"&gt;
+    &lt;p class="size-4"&gt;Visual card&lt;/p&gt;
+    &lt;p&gt;This is visual card&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      </code></pre>
+    </section>
+    <script type="text/javascript">footer('../')</script>
+  </body>
+</html>

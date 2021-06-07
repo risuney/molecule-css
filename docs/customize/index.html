@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Customize / Molecule</title>
+    <link rel="icon" href="../static/logo/logo-mark.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/risuney/molecule-css@latest/css/molecule.min.css">
+    <link rel="stylesheet" href="../molecule-page.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/atom-one-dark.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../include/include.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </head>
+  <body>
+    <script type="text/javascript">header('../')</script>
+    <div class="hero">
+      <div class="hero-body">
+        <p class="size-2">Customize</p>
+        <p class="size-4">Customization with SCSS</p>
+      </div>
+    </div>
+    <section class="section">
+      <h2 class="size-3 heading">Variable</h2>
+      <a href="https://github.com/risuney/molecule-css/blob/main/scss/mixin/variable.scss">variable.scss</a><br>
+      <pre><code class="language-scss">
+// Main color
+$primary: #0cf79d;
+$sakura: #feeeed;
+$beni: #c22047;
+$orange: #ff8000;
+$cobalt: #1b5dc7;
+$danger: #ff1717;
+$warning: #ffde7a;
+$purple: #c651e5;
+$info: #2496f6;
+$white: #ffffff;
+$light: #f4f5f6;
+$dark: #1e1e1e;
+$black: #000000;
+$text: #5e5e5e;
+
+$hover: (); // Colors when hover
+
+$active: (); // Colors when active
+
+$light-col: (); // Light colors
+
+$hr-border: #e5e5e5; // Used for hr, header and table
+$border: #d0d0d0;
+$dark-border: #bdbdbd;
+$btn-focus: 0 0 3px 0 rgba(0, 71, 171, 0.35); // Color when the button is focused
+$inp-focus: 0 0 3px 0 rgba(0, 71, 171, 0.5); // Color when the input and textarea is focused
+$fab-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5); // Fab's shadow
+$card-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.14); // Crad's shadow
+$text-light: #d9d9d9;
+$table-bg: #f7f8f9; // Stripe
+
+$hero-header-item: #f2f3f430;
+
+$footer-text: #515253; // Footer(nav) text
+
+// font
+$sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$serif: serif;
+
+$bold: 600; // Bold
+
+// size
+$small: 400px; // modal
+$medium: 600px; // modal;
+$large: 800px; // modal;
+
+$fab-rl: 15px; // Margin to the right and left of FAB
+$fab-tb: 20px; // Margin to the top and bottom of FAB
+
+// region
+
+$section-padding: 32px 64px;
+$section-padding-mobile: 16px 24px;
+$section-padding-tablet: 24px 48px;
+$section-padding-desktop: 28px 56px;
+
+$section-padding-large: 52px 98px;
+$section-padding-mobile-large: 26px 38px;
+$section-padding-tablet-large: 32px 64px;
+$section-padding-desktop-large: 42px 82px;
+
+$hero-padding: 128px;
+$hero-padding-mobile: 78px 52px;
+$hero-padding-tablet: 96px;
+
+$hero-padding-large: 186px 128px;
+$hero-padding-mobile-large: 128px 64px;
+$hero-padding-tablet-large: 148px 128px;
+
+// margin-padding
+
+$card-padding: 12px 16px;
+
+//media-screen
+//max width
+$mobile: 767px;
+//min width
+$tablet: 768px;
+$desktop: 1024px;
+$widescreen: 1440px;
+      </code></pre>
+    </section>
+    <script type="text/javascript">footer('../')</script>
+  </body>
+</html>
