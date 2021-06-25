@@ -1,3 +1,19 @@
+.nav-header {
+  width: calc(100% - 237px);
+  justify-content: space-between;
+}
+
+.nav-content {
+  display: flex;
+}
+
+.accounts {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  margin-left: 20px;
+}
+
 .header-logo {
   height: 60px
 }
