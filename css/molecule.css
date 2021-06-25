@@ -601,7 +601,7 @@ html.header-fixed, body.header-fixed {
 
 @media screen and (max-width: 767px) {
   .hero .hero-body {
-    padding: 78px 52px;
+    padding: 54px 40px;
   }
 }
 
@@ -617,7 +617,7 @@ html.header-fixed, body.header-fixed {
 
 @media screen and (max-width: 767px) {
   .hero.size-large .hero-body {
-    padding: 128px 64px;
+    padding: 78px 52px;
   }
 }
 
@@ -897,6 +897,17 @@ html.header-fixed, body.header-fixed {
   color: #4c4c4c;
 }
 
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 767px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+
 .card {
   border: 1px solid #d0d0d0;
   border-radius: 12px;
@@ -943,15 +954,8 @@ html.header-fixed, body.header-fixed {
   padding: 12px 16px;
 }
 
-@media screen and (max-width: 767px) {
-  .card {
-    flex-direction: column;
-  }
-}
-
-.cards {
-  display: flex;
-  flex-direction: row;
+.card:last-child {
+  margin-right: 0;
 }
 
 .fab {

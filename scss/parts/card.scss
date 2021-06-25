@@ -1,5 +1,15 @@
 @import "../mixin/all";
 
+.cards {
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: $mobile) {
+    & {
+      flex-direction: column;
+    }
+  }
+}
+
 .card {
   border: 1px solid $border;
   border-radius: 12px;
@@ -36,14 +46,7 @@
   .card-body {
     padding: $card-padding
   }
-  @media screen and (max-width: $mobile) {
-    & {
-      flex-direction: column;
-    }
+  &:last-child {
+    margin-right: 0;
   }
-}
-
-.cards {
-  display: flex;
-  flex-direction: row;
 }
