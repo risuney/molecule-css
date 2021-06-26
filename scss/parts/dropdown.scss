@@ -1,0 +1,36 @@
+@import "../mixin/all";
+
+.dropdown {
+  &:focus-within, &.active, &.hover-active:hover {
+    .dropdown-menu {
+      display: flex;
+    }
+  }
+}
+
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  min-width: 170px;
+  border-radius: 8px;
+  padding: 8px 0;
+  box-shadow: $card-shadow;
+  &.border {
+    .dropdown-item {
+      border-bottom: 1px solid $hr-border;
+      &:last-child {
+        border-bottom: none;
+        padding: 4px 24px;
+      }
+    }
+  }
+}
+
+.dropdown-item {
+  display: inline-flex;
+  padding: 2px 24px;
+  &:hover {
+    background-color: $light;
+  }
+}
