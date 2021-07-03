@@ -24,6 +24,7 @@ $color: (
   "warning": $warning,
   "purple": $purple,
   "info": $info,
+  "white": $white,
   "light": $light,
   "dark": $dark,
   "black": $black,
@@ -40,6 +41,7 @@ $hover: (
   "warning": darken($warning, 5%),
   "purple": darken($purple, 5%),
   "info": darken($info, 5%),
+  "white": $light,
   "light": darken($light, 5%),
   "dark": lighten($dark, 5%),
   "black": lighten($black, 7%),
@@ -56,6 +58,7 @@ $active: (
   "warning": darken($warning, 9%),
   "purple": darken($purple, 9%),
   "info": darken($info, 7%),
+  "white": darken($light, 5%),
   "light": darken($light, 7%),
   "dark": lighten($dark, 9%),
   "black": lighten($black, 11%),
@@ -64,7 +67,6 @@ $active: (
 
 $light-col: (
   "primary": lighten($primary, 41%),
-  "sakura": $sakura,
   "beni": lighten($beni, 47%),
   "orange": lighten($orange, 41%),
   "cobalt": lighten($cobalt, 44%),
@@ -72,7 +74,6 @@ $light-col: (
   "warning": lighten($warning, 15%),
   "purple": lighten($purple, 30%),
   "info": lighten($info, 41%),
-  "light": $light,
   "dark": lighten($dark, 47%),
   "black": lighten($black, 47%),
   "text": lighten($text, 47%)

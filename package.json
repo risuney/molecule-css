@@ -1,6 +1,7 @@
 {
   "name": "molecule-css",
   "version": "1.0.5",
+  "homepage": "https://risuney.github.io/molecule-css",
   "author": "risuney <honey197692@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -18,6 +19,13 @@
     "postcss-cli": "^8.3.1"
   },
   "repository": "https://github.com/risuney/molecule-css.git",
+  "bugs": "https://github.com/risuney/molecule-css/issues",
+  "keywords": [
+    "css",
+    "scss",
+    "css-framework",
+    "molecule-css"
+  ],
   "files": [
     "css",
     "scss",

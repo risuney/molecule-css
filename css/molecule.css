@@ -1,4 +1,4 @@
-/*! molecule.css v1.0.5 | MIT License */
+/*! molecule.css v1.0.6 | MIT License */
 html {
   box-sizing: border-box;
 }
@@ -231,6 +231,14 @@ body, h1, h2, h3, h4, h5, h6, span, p, input, textarea {
   color: #2496f6;
 }
 
+.bg-white {
+  background-color: #ffffff;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
 .bg-light {
   background-color: #f4f5f6;
 }
@@ -307,6 +315,10 @@ body, h1, h2, h3, h4, h5, h6, span, p, input, textarea {
   background-color: #0c8af5;
 }
 
+.btn.bg-white:hover, .fab.bg-white:hover {
+  background-color: #f4f5f6;
+}
+
 .btn.bg-light:hover, .fab.bg-light:hover {
   background-color: #e6e8eb;
 }
@@ -359,6 +371,10 @@ body, h1, h2, h3, h4, h5, h6, span, p, input, textarea {
   background-color: #0a85ed;
 }
 
+.btn.bg-white:active, .fab.bg-white:active {
+  background-color: #e6e8eb;
+}
+
 .btn.bg-light:active, .fab.bg-light:active {
   background-color: #e0e3e6;
 }
@@ -377,10 +393,6 @@ body, h1, h2, h3, h4, h5, h6, span, p, input, textarea {
 
 .btn.light:hover.bg-primary, .fab.light:hover.bg-primary {
   background-color: #cafdea;
-}
-
-.btn.light:hover.bg-sakura, .fab.light:hover.bg-sakura {
-  background-color: #fde3e1;
 }
 
 .btn.light:hover.bg-beni, .fab.light:hover.bg-beni {
@@ -409,10 +421,6 @@ body, h1, h2, h3, h4, h5, h6, span, p, input, textarea {
 
 .btn.light:hover.bg-info, .fab.light:hover.bg-info {
   background-color: #e1f0fe;
-}
-
-.btn.light:hover.bg-light, .fab.light:hover.bg-light {
-  background-color: #edeff0;
 }
 
 .btn.light:hover.bg-dark, .fab.light:hover.bg-dark {
@@ -770,6 +778,12 @@ html.header-fixed, body.header-fixed {
   color: #2496f6;
 }
 
+.btn.border.bg-white {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
 .btn.border.bg-light {
   border-color: #f4f5f6;
   background-color: #ffffff;
@@ -798,10 +812,6 @@ html.header-fixed, body.header-fixed {
   background-color: #d6feef;
 }
 
-.btn.light.bg-sakura {
-  background-color: #feeeed;
-}
-
 .btn.light.bg-beni {
   background-color: #f9d9e1;
 }
@@ -828,10 +838,6 @@ html.header-fixed, body.header-fixed {
 
 .btn.light.bg-info {
   background-color: #edf6fe;
-}
-
-.btn.light.bg-light {
-  background-color: #f4f5f6;
 }
 
 .btn.light.bg-dark {
@@ -880,6 +886,10 @@ html.header-fixed, body.header-fixed {
 
 .btn.light.bg-info {
   color: #0a85ed;
+}
+
+.btn.light.bg-white {
+  color: #ededed;
 }
 
 .btn.light.bg-light {
@@ -1056,6 +1066,12 @@ html.header-fixed, body.header-fixed {
   color: #2496f6;
 }
 
+.fab.border.bg-white {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
 .fab.border.bg-light {
   border-color: #f4f5f6;
   background-color: #ffffff;
@@ -1084,10 +1100,6 @@ html.header-fixed, body.header-fixed {
   background-color: #d6feef;
 }
 
-.fab.light.bg-sakura {
-  background-color: #feeeed;
-}
-
 .fab.light.bg-beni {
   background-color: #f9d9e1;
 }
@@ -1114,10 +1126,6 @@ html.header-fixed, body.header-fixed {
 
 .fab.light.bg-info {
   background-color: #edf6fe;
-}
-
-.fab.light.bg-light {
-  background-color: #f4f5f6;
 }
 
 .fab.light.bg-dark {
@@ -1166,6 +1174,10 @@ html.header-fixed, body.header-fixed {
 
 .fab.light.bg-info {
   color: #0a85ed;
+}
+
+.fab.light.bg-white {
+  color: #ededed;
 }
 
 .fab.light.bg-light {
@@ -1315,6 +1327,10 @@ html.header-fixed, body.header-fixed {
 
 .input.bor-info, .textarea.bor-info {
   border-color: #2496f6;
+}
+
+.input.bor-white, .textarea.bor-white {
+  border-color: #ffffff;
 }
 
 .input.bor-light, .textarea.bor-light {
