@@ -11,7 +11,7 @@
 
 @mixin modal-c-b {
   background-color: $white;
-  border-radius: 16px;
+  border-radius: $modal-radius;
   z-index: 2000;
   max-height: calc(100% - 60px);
 }

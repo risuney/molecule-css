@@ -1,4 +1,4 @@
-/*! molecule.css v1.0.6 | MIT License */
+/*! molecule.css v1.0.7 | MIT License */
 html {
   box-sizing: border-box;
 }
@@ -1469,6 +1469,29 @@ html.header-fixed, body.header-fixed {
 .modal-content, .modal-card {
   display: flex;
   flex-direction: column;
+}
+
+.modal-visual {
+  display: flex;
+  max-width: calc(100% - 60px);
+  max-height: calc(100% - 120px);
+  z-index: 2000;
+}
+
+.modal-visual * {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.modal-visual.radius * {
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .modal-visual {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 
 .table th, .table td {

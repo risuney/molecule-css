@@ -1,0 +1,23 @@
+@import "../mixin/all";
+
+$max-w: calc(100% - 60px);
+$max-h: calc(100% - 120px);
+$max-w-mobile: 100%;
+$max-h-mobile: 100%;
+
+.modal-visual {
+  display: flex;
+  max-width: $max-w;
+  max-height: $max-h;
+  z-index: 2000;
+  * {
+    object-fit: contain;
+  }
+  &.radius * {
+    border-radius: $modal-radius;
+  }
+  @media screen and (max-width: $mobile) {
+    max-width: $max-w-mobile;
+    max-height: $max-h-mobile;
+  }
+}
