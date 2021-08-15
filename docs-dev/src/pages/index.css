@@ -1,0 +1,153 @@
+.hero-index {
+  height: calc(100vh - 93px)
+}
+
+.bg-beni-other {
+  background-color: #ff3566;
+}
+
+.text-beni-other {
+  color: #ff3566;
+}
+
+.btn.bg-beni-other.border {
+  border: solid 2px #ffffff;
+  color: #ffffff;
+}
+
+.btn.bg-beni-other.border:hover {
+  background-color: #f6597f;
+}
+
+.btn.bg-beni-other.border:active {
+  background-color: #f57292;
+}
+
+.hero-body-text .size-1, .hero-body-text .size-1 * {
+  color: #ffffff
+}
+
+.hero-body-text .size-4 {
+  max-width: 530px;
+}
+
+.hero-body-logo {
+  width: 600px;
+  position: absolute;
+  top: 93px;
+  right: 0px;
+  opacity: 60%;
+}
+
+.img-overlay {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 93px;
+  right: 0px;
+  z-index: 1;
+}
+
+.webpage-section#responsive-d, .webpage-section#twitter, .webpage-section#license {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.webpage-section {
+  padding: 128px;
+}
+
+.section-media.responsive-d, .section-media.twitter {
+  width: 500px;
+  margin-left: 50px;
+}
+
+.section-media.license {
+  width: 500px;
+  margin-right: 50px;
+}
+
+.section-text.responsive-d, .section-text.twitter, .section-text.license {
+  max-width: calc(100% - 550px);
+}
+
+.section-desc {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.twitter-timeline {
+  position: absolute!important;
+  top: -620px;
+  left: 40px;
+}
+
+.timeline-area {
+  position: relative;
+}
+
+.text-twitter {
+  color: #1d9bf0
+}
+
+@media screen and (max-width: 1919px) {
+  .webpage-section {
+    padding: 96px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .webpage-section {
+    padding: 54px 40px;
+  }
+
+  .webpage-section#responsive-d, .webpage-section#twitter, .webpage-section#license {
+    flex-direction: column;
+  }
+
+  .section-text.responsive-d, .section-text.twitter, .section-text.license {
+    max-width: 100%
+  }
+
+  .section-media.responsive-d {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .section-media.twitter {
+    width: 100%!important;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .section-media.license {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .twitter-timeline {
+    max-width: calc(100vw - 120px)!important;
+    height: 330px!important;
+    top: -367px;
+    left: 20px;
+  }
+}
+
+pre.index {
+  width: 100vw;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.webpage-section#no-js .size-2 {
+  margin-bottom: 1rem
+}
+
+.webpage-section#no-js .size-4 {
+  margin-top: 92px
+}

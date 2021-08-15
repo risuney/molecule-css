@@ -1,0 +1,86 @@
+[
+  {
+    "colorName": "Primary",
+    "hex": "#0cf79d",
+    "rgb": "12, 247, 157",
+    "variable": "primary"
+  },
+  {
+    "colorName": "Sakura",
+    "hex": "#feeeed",
+    "rgb": "254, 238, 237",
+    "variable": "sakura"
+  },
+  {
+    "colorName": "Beni",
+    "hex": "#c22047",
+    "rgb": "194, 32, 71",
+    "variable": "beni"
+  },
+  {
+    "colorName": "Orange",
+    "hex": "#ff8000",
+    "rgb": "255, 128, 0",
+    "variable": "orange"
+  },
+  {
+    "colorName": "Cobalt",
+    "hex": "#1b5dc7",
+    "rgb": "27, 93, 199",
+    "variable": "cobalt"
+  },
+  {
+    "colorName": "Danger",
+    "hex": "#ff1717",
+    "rgb": "255, 23, 23",
+    "variable": "danger"
+  },
+  {
+    "colorName": "Warning",
+    "hex": "#ffde7a",
+    "rgb": "255, 222, 122",
+    "variable": "warning"
+  },
+  {
+    "colorName": "Purple",
+    "hex": "#c651e5",
+    "rgb": "198, 81, 246",
+    "variable": "purple"
+  },
+  {
+    "colorName": "Info",
+    "hex": "#2496f6",
+    "rgb": "36, 150, 246",
+    "variable": "info"
+  },
+  {
+    "colorName": "White",
+    "hex": "#ffffff",
+    "rgb": "255, 255, 255",
+    "variable": "white"
+  },
+  {
+    "colorName": "Light",
+    "hex": "#f4f5f6",
+    "rgb": "244, 245, 246",
+    "variable": "light"
+  },
+  {
+    "colorName": "Text",
+    "hex": "#5e5e5e",
+    "rgb": "94, 94, 94",
+    "variable": "text"
+  },
+  {
+    "colorName": "Dark",
+    "hex": "#1e1e1e",
+    "rgb": "30, 30, 30",
+    "variable": "dark"
+  },
+  {
+    "colorName": "Black",
+    "hex": "#000000",
+    "rgb": "0, 0, 0",
+    "variable": "black"
+  }
+]

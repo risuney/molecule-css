@@ -1,0 +1,110 @@
+{
+  "docs": [
+    {
+      "to": "/overview/",
+      "title": "Overview",
+      "desc": "Basic functions and usage"
+    },
+    {
+      "to": "/layout/",
+      "title": "Layout",
+      "desc": "Important layouts that make up the page"
+    },
+    {
+      "to": "/parts/",
+      "title": "Parts",
+      "desc": "Different types of parts"
+    }
+  ],
+  "overview": [
+    {
+      "to": "/overview/start",
+      "title": "Start",
+      "desc": "How to get started"
+    },
+    {
+      "to": "/overview/text",
+      "title": "Text",
+      "desc": "Basic text type of page"
+    },
+    {
+      "to": "/overview/colors",
+      "title": "Colors",
+      "desc": "Colors that apply to all"
+    }
+  ],
+  "region": [
+    {
+      "to": "/layout/header",
+      "title": "Header",
+      "desc": "Modern and simple header"
+    },
+    {
+      "to": "/layout/footer",
+      "title": "Footer",
+      "desc": "Footer where you can write what you need"
+    },
+    {
+      "to": "/layout/hero",
+      "title": "Hero",
+      "desc": "The most prominent region on the page"
+    },
+    {
+      "to": "/layout/section",
+      "title": "Section",
+      "desc": "Optimal region for fitting various parts"
+    }
+  ],
+  "parts": [
+    {
+      "to": "/parts/button",
+      "title": "Button",
+      "desc": "Buttons with abundant options"
+    },
+    {
+      "to": "/parts/card",
+      "title": "Card",
+      "desc": "Parts that flexibly deform"
+    },
+    {
+      "to": "/parts/dropdown",
+      "title": "Dropdown",
+      "desc": "A dropdown that allows you to view the list"
+    },
+    {
+      "to": "/parts/fab",
+      "title": "FAB",
+      "desc": "Floating action button"
+    },
+    {
+      "to": "/parts/file",
+      "title": "File",
+      "desc": "File input and its contents"
+    },
+    {
+      "to": "/parts/input",
+      "title": "Input",
+      "desc": "Input and its contents"
+    },
+    {
+      "to": "/parts/textarea",
+      "title": "Textarea",
+      "desc": "Textarea and its contents"
+    },
+    {
+      "to": "/parts/normal-modal",
+      "title": "Modal",
+      "desc": "Modal that can contain various parts"
+    },
+    {
+      "to": "/parts/modal-visual",
+      "title": "Visual Modal",
+      "desc": "Modal for visual"
+    },
+    {
+      "to": "/parts/table",
+      "title": "Table",
+      "desc": "Modern and simple table"
+    }
+  ]
+}

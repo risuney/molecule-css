@@ -1,0 +1,82 @@
+.nav-header {
+  width: calc(100% - 237px);
+  justify-content: space-between;
+}
+
+.nav-content {
+  display: flex;
+}
+
+.accounts {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  margin-left: 20px;
+}
+
+.header-logo {
+  height: 60px
+}
+
+.home-btns {
+  margin-top: 1rem
+}
+
+.btn {
+  display: inline-flex;
+}
+
+.cards-link {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card.page {
+  display: block;
+  padding: 14px 32px;
+  margin: 6px;
+  width: calc(50% - 12px);
+  flex-basis: initial;
+  flex-grow: initial;
+  flex-shrink: initial;
+}
+
+.card.page:hover {
+  background-color: #edf6fe
+}
+
+@media screen and (max-width: 767px) {
+  .cards-link {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .card.page {
+    width: 100%;
+    margin: 0 0 12px 0;
+  }
+}
+
+.footer-top-text {
+  margin-bottom: 2rem;
+}
+
+.heading {
+  margin-bottom: 1.15rem;
+  display: block;
+}
+
+[class*="hljs"] {
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.modal {
+  position: fixed!important;
+}
+
+.react-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
