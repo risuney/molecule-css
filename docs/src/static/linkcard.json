@@ -102,6 +102,11 @@
       "desc": "Modal for visual"
     },
     {
+      "to": "/parts/separated-box",
+      "title": "Separated box",
+      "desc": "Separated box that can be used in various ways"
+    },
+    {
       "to": "/parts/table",
       "title": "Table",
       "desc": "Modern and simple table"
