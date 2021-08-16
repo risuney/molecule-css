@@ -7,9 +7,6 @@
   }
   .text-#{$c-name} {
     color: $color;
-    & * {
-      color: $color
-    }
   }
 }
 

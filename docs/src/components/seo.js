@@ -61,7 +61,7 @@ function Seo({ description, lang, meta, title, type }) {
         },
       ].concat(meta)}
     >
-      <link rel="stylesheet" href="https://unpkg.com/molecule-css@1.0.7/css/molecule.min.css" />
+      <link rel="stylesheet" href="https://unpkg.com/molecule-css@latest/css/molecule.min.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet" />
     </Helmet>

@@ -19,6 +19,7 @@ const Download = () => (
           </tr>
         </thead>
         <tbody>
+          <TrDownload v="1.0.9" />
           <TrDownload v="1.0.8" />
           <TrDownload v="1.0.7" />
           <TrDownload v="1.0.6" />
