@@ -1,5 +1,5 @@
 # Molecule
-![](docs/static/logo/og-logo.jpeg)
+![](docs/src/static/logo/og-logo.jpeg)
 
 CSS like a molecule.
 
