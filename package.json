@@ -1,14 +1,14 @@
 {
   "name": "molecule-css",
   "version": "1.0.7",
-  "homepage": "https://risuney.github.io/molecule-css",
+  "homepage": "https://molecule-css.pages.dev/",
   "author": "risuney <honey197692@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "npm run build-css && npm run build-prefix && npm run clean-css",
     "build-prefix": "postcss --use autoprefixer --map false --output css/molecule.css css/molecule.css",
     "build-css": "node-sass --output-style expanded --source-map true scss/molecule.scss css/molecule.css",
-    "build-css-w": "node-sass --output-style expanded --source-map true scss/molecule.scss css/molecule.css -w",
+    "develop": "node-sass --output-style expanded --source-map true scss/molecule.scss css/molecule.css -w",
     "clean-css": "cleancss -o css/molecule.min.css css/molecule.css"
   },
   "devDependencies": {

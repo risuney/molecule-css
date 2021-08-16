@@ -20,7 +20,7 @@
   color: $white;
 }
 
-.btn, .fab {
+.btn, .fab, .separated.hover .separated-cell {
   @each $c-name, $color in $hover {
     &.bg-#{$c-name}:hover {
       background-color: $color;

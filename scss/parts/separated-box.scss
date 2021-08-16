@@ -1,0 +1,82 @@
+@import "../mixin/all";
+
+.separated {
+  display: flex;
+  border-radius: 16px;
+  overflow: hidden;
+  flex-wrap: wrap;
+
+  &.border {
+    border: solid 1px $border;
+  }
+
+  &.column {
+    flex-direction: column;
+    .separated-cell {
+      width: 100%;
+    }
+  }
+
+  &.center {
+    .separated-cell {
+      justify-content: center
+    }
+  }
+
+  &.hover {
+    .separated-cell {
+      cursor: pointer;
+      &:hover {
+        background-color: $light
+      }
+      &:focus {
+        box-shadow: $btn-focus
+      }
+      // For other background colors, it's in '../main/color.scss(23:13)'
+    }
+  }
+}
+
+.separated-cell {
+  padding: 14px 24px;
+  overflow-wrap: break-word;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  &.size-small {
+    max-width: 128px;
+    min-width: 36px;
+    padding: 8px 18px;
+    flex-basis: initial;
+    flex-grow: initial;
+    flex-shrink: initial;
+  }
+
+  &.size-medium {
+    width: 248px;
+    flex-basis: initial;
+    flex-grow: initial;
+    flex-shrink: initial
+  }
+
+  &.size-large {
+    width: 342px;
+    padding: 18px 36px;
+    flex-basis: initial;
+    flex-grow: initial;
+    flex-shrink: initial;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .separated {
+    flex-direction: column;
+    .separated-cell {
+      width: 100%;
+    }
+  }
+}
