@@ -1,9 +1,9 @@
-# Molecule
-![](docs/src/static/logo/og-logo.jpeg)
+# MoleculeCSS
+![](docs/src/static/logo/og-logo.png)
 
-CSS like a molecule.
+Simple and modern CSS framework
 
-# How to use?
+# How to use
 
 ### npm
 
@@ -11,20 +11,16 @@ CSS like a molecule.
 npm install molecule-css
 ```
 
+or
+
 ### Yarn
 
 ```sh
 yarn add molecule-css
 ```
 
-### CDN(From npm)
+### CDN
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/molecule-css@latest/css/molecule.min.css">
-```
-
-### CDN(From GitHub)
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/risuney/molecule-css@latest/css/molecule.min.css">
+<link rel="stylesheet" href="https://unpkg.com/molecule-css@latest/css/molecule.min.css">
 ```

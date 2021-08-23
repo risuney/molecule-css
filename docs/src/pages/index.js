@@ -102,7 +102,7 @@ const IndexPage = () => {
           <IndexSectionDesc className="section-desc">
             In addition to the <span className="text-bold">package</span>, please see <Link to="/404">this page</Link> for <span className="text-bold">logos</span> etc.
           </IndexSectionDesc>
-          <Link to="/" className="btn bg-info light round">Read LICENSE</Link>
+          <Link to="/licence" className="btn bg-info light round">Read LICENSE</Link>
         </div>
       </section>
     </Layout>

@@ -45,7 +45,7 @@ function Seo({ description, lang, meta, title, type }) {
         },
         {
           property: `og:image`,
-          content: `https://raw.githubusercontent.com/risuney/molecule-css/main/docs/src/static/logo/og-logo.jpeg`,
+          content: `https://raw.githubusercontent.com/risuney/molecule-css/main/docs/src/static/logo/og-logo.png`,
         },
         {
           name: `twitter:card`,
