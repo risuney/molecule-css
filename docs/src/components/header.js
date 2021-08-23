@@ -26,7 +26,7 @@ const Header = () => (
             <img src={Twitter} alt="Twitter" />
           </a>
           <a href="https://www.youtube.com/channel/UCjtWaC01UXKRvnJ8zO0CzAw" className="accounts" target="_blank" rel="noopener noreferrer">
-            <img src={YouTube} alt="GitHub" />
+            <img src={YouTube} alt="YouTube" />
           </a>
         </div>
       </nav>
