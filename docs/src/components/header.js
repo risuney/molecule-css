@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Logo from "../static/logo/logo.svg"
 import Twitter from "../static/twitter-logo.svg"
 import GitHub from "../static/GitHub-Mark.png"
-import YouTube from "../static/youtube_social_icon_red.png"
+import YouTube from "../static/youtube_social_red_circle.svg"
 
 const Header = () => (
   <header className="header">
