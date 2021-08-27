@@ -63,7 +63,7 @@ const IndexPage = () => {
           <span className="text-beni-other text-bold">No JavaScript</span> required
         </IndexSectionTitle>
         <pre className="index">
-          <code>&lt;link rel="stylesheet" href="https://unpkg.com/molecule-css@1.0.7/css/molecule.min.css"&gt;</code>
+          <code>&lt;link rel="stylesheet" href="https://unpkg.com/molecule-css@latest/css/molecule.min.css"&gt;</code>
         </pre>
         <IndexSectionDesc className="text-center">
           That's all the code you need. No JavaScript required. You don't have to worry about using <span className="text-bold">React, Vue.js, etc</span>.
