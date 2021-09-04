@@ -23,6 +23,11 @@
       "desc": "How to get started"
     },
     {
+      "to": "/overview/about",
+      "title": "About",
+      "desc": "About MoleculeCSS"
+    },
+    {
       "to": "/overview/text",
       "title": "Text",
       "desc": "Basic text type of page"

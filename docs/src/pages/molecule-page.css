@@ -81,3 +81,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.risuney-website-link {
+  border-radius: 12px;
+  width: 400px;
+  margin-top: 1rem;
+}
