@@ -5,6 +5,7 @@ module.exports = {
     siteUrl: `https://molecule-css.pages.dev/`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {

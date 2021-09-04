@@ -12,6 +12,7 @@
     "gatsby-plugin-offline": "^4.10.0",
     "gatsby-plugin-react-helmet": "^4.10.0",
     "gatsby-plugin-sharp": "^3.10.2",
+    "gatsby-plugin-sitemap": "^4.9.0",
     "gatsby-source-filesystem": "^3.10.0",
     "gatsby-transformer-sharp": "^3.10.0",
     "highlight.js": "^11.2.0",
