@@ -59,6 +59,10 @@ function Seo({ description, lang, meta, title, type }) {
           name: `twitter:description`,
           content: description,
         },
+        {
+          name: `google-site-verification`,
+          content: `K-zfQ5-zrFn4BadBaTV_cXOLOa6JEXwmbySSr9S6BeU`,
+        },
       ].concat(meta)}
     >
       <link rel="stylesheet" href="https://unpkg.com/molecule-css@latest/css/molecule.min.css" />
