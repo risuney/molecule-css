@@ -1,0 +1,22 @@
+@import "../mixin/all";
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // center
+  justify-content: center;
+
+  &.full-window {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  &.top {
+    justify-content: flex-start;
+  }
+
+  &.bottom {
+    justify-content: flex-end;
+  }
+}
