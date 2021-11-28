@@ -4,7 +4,7 @@ import FooterText from "./atoms/footertext"
 import Data from "../static/linkcard.json"
 
 const overview = Data.overview
-const region = Data.region
+const layout = Data.layout
 const parts = Data.parts
 
 const Footer = () => (
@@ -22,10 +22,10 @@ const Footer = () => (
       </div>
       <div className="footer-column">
         <FooterHeading to="/layout" title="Layout" />
-        {region.map((region) =>
+        {layout.map((layout) =>
           <FooterText
-          to={region.to}
-          title={region.title}
+          to={layout.to}
+          title={layout.title}
           />
         )}
       </div>

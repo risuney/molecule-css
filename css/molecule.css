@@ -1,4 +1,4 @@
-/*! molecule.css v1.0.10 | MIT License */
+/*! molecule.css v1.0.11 | MIT License */
 html {
   box-sizing: border-box;
 }
@@ -684,23 +684,23 @@ html.header-fixed, body.header-fixed {
   }
 }
 
-.center {
+.center-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.center.full-window {
+.center-box.full-window {
   width: 100vw;
   height: 100vh;
 }
 
-.center.top {
+.center-box.top {
   justify-content: flex-start;
 }
 
-.center.bottom {
+.center-box.bottom {
   justify-content: flex-end;
 }
 

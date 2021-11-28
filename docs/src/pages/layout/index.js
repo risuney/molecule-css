@@ -6,7 +6,7 @@ import LinkCard from "../../components/atoms/linkcard"
 import Data from "../../static/linkcard.json"
 import "./../molecule-page.css"
 
-const card = Data.region
+const card = Data.layout
 
 const Region = () => (
   <Layout>

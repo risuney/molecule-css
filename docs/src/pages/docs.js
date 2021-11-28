@@ -16,9 +16,9 @@ const Docs = () => (
       <div className="cards-link">
         {card.map((card) =>
           <LinkCard
-          to={card.to}
-          title={card.title}
-          desc={card.desc}
+            to={card.to}
+            title={card.title}
+            desc={card.desc}
           />
         )}
       </div>

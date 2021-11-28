@@ -38,7 +38,7 @@
       "desc": "Colors that apply to all"
     }
   ],
-  "region": [
+  "layout": [
     {
       "to": "/layout/header",
       "title": "Header",
@@ -58,6 +58,11 @@
       "to": "/layout/section",
       "title": "Section",
       "desc": "Optimal region for fitting various parts"
+    },
+    {
+      "to": "/layout/center",
+      "title": "Center",
+      "desc": "Center layout with various uses"
     }
   ],
   "parts": [
