@@ -26,8 +26,8 @@ const Center = () => {
         <pre>
           <code className="language-html">
             {`
-<div className="center-box">
-  <p className="size-3">Hello Space</p>
+<div class="center-box">
+  <p class="size-3">Hello Space</p>
 </div>
             `}
           </code>
