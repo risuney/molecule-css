@@ -78,16 +78,16 @@ const PageSection = () => {
       <Section sectionTitle="Sizes">
         <button className="btn small">Small</button>
         <button className="btn">Normal</button>
-        <button className="btn large">Large</button>
-        <button className="btn big-big">Big Big</button>
+        <button className="btn size-large">Large</button>
+        <button className="btn size-big-big">Big Big</button>
         <button className="btn size-width-full">100% width</button>
         <pre>
           <code className="language-html">
             {`
 <button class="btn small">Small</button>
 <button class="btn">Normal</button>
-<button class="btn large">Large</button>
-<button class="btn big-big">Big Big</button>
+<button class="btn size-large">Large</button>
+<button class="btn size-big-big">Big Big</button>
 <button class="btn size-width-full">100% width</button>
             `}
           </code>
