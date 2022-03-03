@@ -14,6 +14,11 @@
       "to": "/parts/",
       "title": "Parts",
       "desc": "Different types of parts"
+    },
+    {
+      "to": "/effect/",
+      "title": "Effects",
+      "desc": "Effects that make MoleculeCSS even more useful"
     }
   ],
   "overview": [
@@ -120,6 +125,18 @@
       "to": "/parts/table",
       "title": "Table",
       "desc": "Modern and simple table"
+    }
+  ],
+  "effect": [
+    {
+      "to": "/effect/neumor",
+      "title": "Neumorphism",
+      "desc": "Decorate parts in a modern way"
+    },
+    {
+      "to": "/effect/glassmor",
+      "title": "Glassmorphism",
+      "desc": "Frosted glass decorating various parts"
     }
   ]
 }

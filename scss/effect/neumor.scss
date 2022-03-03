@@ -1,0 +1,15 @@
+@import "../mixin/all";
+
+.neumor {
+  border: none!important;
+  background-color: transparent!important;
+  box-shadow: $neumor-sha-w, $neumor-sha-b;
+
+  &:hover {
+    box-shadow: inset $neumor-sha-hover-w, inset $neumor-sha-hover-b;
+  }
+
+  &.inset, &:active {
+    box-shadow: inset $neumor-sha-w, inset $neumor-sha-b;
+  }
+}

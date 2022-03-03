@@ -135,7 +135,7 @@ const PageHero = () => {
           <p className="size-3">Large</p>
         </div>
       </div>
-      <div className="hero size-height-full bg-warning">
+      <div className="hero size-full-height bg-warning">
         <div className="hero-body">
           <p className="size-3">Full height</p>
         </div>
@@ -144,15 +144,15 @@ const PageHero = () => {
         <pre>
           <code className="language-html">
             {`
-<div className="hero size-large bg-light">
-  <div className="hero-body">
-    <p className="size-3">Large</p>
+<div class="hero size-large bg-light">
+  <div class="hero-body">
+    <p class="size-3">Large</p>
   </div>
 </div>
 
-<div className="hero size-height-full bg-warning">
-  <div className="hero-body">
-    <p className="size-3">Full height</p>
+<div class="hero size-full-height bg-warning">
+  <div class="hero-body">
+    <p class="size-3">Full height</p>
   </div>
 </div>
             `}
@@ -169,9 +169,9 @@ const PageHero = () => {
         <pre>
           <code className="language-html">
             {`
-<div className="hero bg-light center">
-  <div className="hero-body">
-    <p className="size-3">Center</p>
+<div class="hero bg-light center">
+  <div class="hero-body">
+    <p class="size-3">Center</p>
   </div>
 </div>
             `}

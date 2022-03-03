@@ -1,4 +1,4 @@
-/*! molecule.css v1.0.11 | MIT License */
+/*! molecule.css v1.1.0 | MIT License */
 html {
   box-sizing: border-box;
 }
@@ -88,7 +88,7 @@ a {
   text-decoration: none;
 }
 
-.size-width-full {
+.size-full-width {
   width: 100%;
 }
 
@@ -577,11 +577,11 @@ html.header-fixed, body.header-fixed {
   text-align: center;
 }
 
-.hero.size-height-full {
+.hero.size-full-height {
   height: 100vh;
 }
 
-.hero.size-height-full .hero-header {
+.hero.size-full-height .hero-header {
   position: absolute;
   top: 0;
 }
@@ -691,7 +691,7 @@ html.header-fixed, body.header-fixed {
   justify-content: center;
 }
 
-.center-box.full-window {
+.center-box.size-full-window {
   width: 100vw;
   height: 100vh;
 }
@@ -705,47 +705,14 @@ html.header-fixed, body.header-fixed {
 }
 
 .btn {
+  padding: 10px 16px;
+  cursor: pointer;
   font-size: 1rem;
   border-radius: 8px;
   margin-right: 6px;
   margin-bottom: 6px;
   border: solid 1px #d0d0d0;
   outline: none;
-  padding: 10px 16px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #f4f5f6;
-}
-
-.btn:focus {
-  box-shadow: 0 0 3px 0 rgba(0, 71, 171, 0.35);
-}
-
-.btn[class*="bg"] {
-  border-color: transparent;
-}
-
-.btn.round {
-  border-radius: 100vh;
-  padding: 10px 20px;
-}
-
-.btn.size-small {
-  padding: 8px 12px;
-  font-size: 14px;
-  border-radius: 8px;
-}
-
-.btn.size-large {
-  padding: 12px 20px;
-  font-size: 20px;
-}
-
-.btn.size-big-big {
-  padding: 14px 22px;
-  font-size: 22px;
 }
 
 .btn.border.bg-primary {
@@ -930,6 +897,36 @@ html.header-fixed, body.header-fixed {
 
 .btn.light.bg-text {
   color: #4c4c4c;
+}
+
+.btn:hover {
+  background-color: #f4f5f6;
+  box-shadow: 0 0 3px 0 rgba(0, 71, 171, 0.35);
+}
+
+.btn[class*="bg"] {
+  border-color: transparent;
+}
+
+.btn.round {
+  border-radius: 100vh;
+  padding: 10px 20px;
+}
+
+.btn.size-small {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.btn.size-large {
+  padding: 12px 20px;
+  font-size: 20px;
+}
+
+.btn.size-big-big {
+  padding: 14px 22px;
+  font-size: 22px;
 }
 
 .cards {
@@ -1274,7 +1271,6 @@ html.header-fixed, body.header-fixed {
 
 .file {
   display: inline-flex;
-  background-color: #f4f5f6;
   border: 1px solid #d0d0d0;
   padding: 8px 18px;
   border-radius: 8px;
@@ -1628,5 +1624,27 @@ html.header-fixed, body.header-fixed {
 .table.size-large td, .table.size-large th {
   padding: 8px 32px;
   font-size: 1.25rem;
+}
+
+.neumor {
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.19), -6px -6px 20px rgba(255, 255, 255, 0.33);
+}
+
+.neumor:hover {
+  box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.12), inset -6px -6px 20px rgba(255, 255, 255, 0.26);
+}
+
+.neumor.inset, .neumor:active {
+  box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.19), inset -6px -6px 20px rgba(255, 255, 255, 0.33);
+}
+
+.glassmor {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 /*# sourceMappingURL=molecule.css.map */

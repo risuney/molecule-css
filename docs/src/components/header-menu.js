@@ -16,6 +16,7 @@ const HeaderMenu = ({ close }) => (
       <MenuText to="/overview/" icon="plagiarism" iconColor="info">Overview</MenuText>
       <MenuText to="/layout/" icon="dashboard" iconColor="warning">Layout</MenuText>
       <MenuText to="/parts/" icon="extension" iconColor="primary">Parts</MenuText>
+      <MenuText to="/effect/" icon="auto_awesome" iconColor="purple">Effects</MenuText>
       <hr style={{width: '100vw', position: 'relative', left: '-24px'}}/>
       <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-around'}}>
         <a href="https://github.com/risuney/molecule-css" className="menu-accounts" target="_blank" rel="noopener noreferrer">

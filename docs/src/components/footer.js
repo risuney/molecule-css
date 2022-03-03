@@ -6,6 +6,7 @@ import Data from "../static/linkcard.json"
 const overview = Data.overview
 const layout = Data.layout
 const parts = Data.parts
+const effect = Data.effect
 
 const Footer = () => (
   <footer className="footer">
@@ -35,6 +36,15 @@ const Footer = () => (
           <FooterText
             to={parts.to}
             title={parts.title}
+          />
+        )}
+      </div>
+      <div className="footer-column">
+        <FooterHeading to="/effect" title="Effects" />
+        {effect.map((effect) =>
+          <FooterText
+            to={effect.to}
+            title={effect.title}
           />
         )}
       </div>

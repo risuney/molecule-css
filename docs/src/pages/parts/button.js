@@ -80,7 +80,7 @@ const PageSection = () => {
         <button className="btn">Normal</button>
         <button className="btn size-large">Large</button>
         <button className="btn size-big-big">Big Big</button>
-        <button className="btn size-width-full">100% width</button>
+        <button className="btn size-full-width">100% width</button>
         <pre>
           <code className="language-html">
             {`
@@ -88,7 +88,7 @@ const PageSection = () => {
 <button class="btn">Normal</button>
 <button class="btn size-large">Large</button>
 <button class="btn size-big-big">Big Big</button>
-<button class="btn size-width-full">100% width</button>
+<button class="btn size-full-width">100% width</button>
             `}
           </code>
         </pre>

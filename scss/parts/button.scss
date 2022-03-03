@@ -1,30 +1,34 @@
 @import "../mixin/all";
 
 .btn {
-  @include btn-inp;
   padding: 10px 16px;
   cursor: pointer;
+  @include btn-inp;
+  @include btn-fab;
+
   &:hover {
-    background-color: $light
+    background-color: $light;
+    box-shadow: $btn-focus;
   }
-  &:focus {
-    box-shadow: $btn-focus
-  }
+
   &[class*="bg"] {
     border-color: transparent;
   }
+
   &.round {
     border-radius: 100vh;
     padding: 10px 20px
   }
+
   &.size-small {
     @include small;
   }
+
   &.size-large {
     @include large;
   }
+
   &.size-big-big {
     @include big-big;
   }
-  @include btn-fab;
 }
