@@ -20,9 +20,9 @@ const Neumor = () => {
       <Seo title="Neumorphism" description="Decorate parts in a modern way" />
       <Hero title="Neumorphism" desc="Decorate parts in a modern way" />
       <Section sectionTitle="Example" />
-      <Section className="bg-info">
+      <section className="section bg-info">
         <button className="btn neumor round">Neu</button>
-      </Section>
+      </section>
       <Section>
         <pre>
           <code className="language-html">
