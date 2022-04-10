@@ -20,7 +20,7 @@ const PageFooter = () => {
       <Seo title="Footer" description="Footer where you can write what you need" />
       <Hero title="Footer" desc="Footer where you can write what you need" />
       <Section sectionTitle="Footer(nav)" />
-      <footer className="footer">
+      <footer className="footer bg-light">
         <nav className="nav">
           <div className="footer-column">
             <p className="size-footer-text text-heading">Foo</p>
@@ -48,7 +48,7 @@ const PageFooter = () => {
         <pre>
           <code className="language-html">
             {`
-<footer class="footer">
+<footer class="footer bg-light">
   <nav class="nav">
     <div class="footer-column">
       <a class="size-footer-text text-heading">Foo</a>
@@ -77,14 +77,14 @@ const PageFooter = () => {
         </pre>
       </Section>
       <Section sectionTitle="Footer(copyright)" />
-      <footer className="footer">
+      <footer className="footer bg-light">
         <p className="size-footer-text footer-copy-right text-center">Copyright © 20xx You All rights reserved.</p>
       </footer>
       <Section>
         <pre>
           <code className="language-html">
             {`
-<footer class="footer">
+<footer class="footer bg-light">
   <p class="size-footer-text footer-copy-right text-center">Copyright © 20xx You All rights reserved.</p>
 </footer>
             `}

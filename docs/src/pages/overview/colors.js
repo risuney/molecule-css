@@ -35,6 +35,7 @@ const Colors = () => (
           )}
         </tbody>
       </table>
+      <p>Use <span className="bg-light">{` text-{color} `}</span> for text color and <span className="bg-light">{` bg-{color} `}</span> for background color</p>
     </Section>
   </Layout>
 )
