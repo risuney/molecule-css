@@ -9,7 +9,7 @@ const parts = Data.parts
 const effect = Data.effect
 
 const Footer = () => (
-  <footer className="footer">
+  <footer className="footer bg-light">
     <p className="footer-top-text">risuney is Japanese. So I can't English well. If you think the sentence is strange, please <a href="https://twitter.com/MoleculeCSS">send me a Message</a>.</p>
     <nav className="nav">
       <div className="footer-column">
