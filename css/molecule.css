@@ -1,4 +1,4 @@
-/*! molecule.css v1.1.0 | MIT License */
+/*! molecule.css v1.1.1 | MIT License */
 html {
   box-sizing: border-box;
 }
@@ -108,7 +108,7 @@ a {
   border-radius: 0 !important;
 }
 
-body, h1, h2, h3, h4, h5, h6, span, p, input, textarea {
+body, h1, h2, h3, h4, h5, h6, span, p, input, textarea, button {
   color: #5e5e5e;
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
@@ -440,7 +440,6 @@ body, h1, h2, h3, h4, h5, h6, span, p, input, textarea {
 }
 
 .footer {
-  background-color: #f4f5f6;
   width: 100%;
   padding: 20px;
 }
